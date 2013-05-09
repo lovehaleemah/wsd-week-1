@@ -54,9 +54,22 @@
 		
 		<div id="Biography">
 			<ul>
-				<li><img
-		
-		
-		
+				<li><img src="images/birthstory.jpg" width="100" height="150" alt="Birth
+				Story Movie Poster"/></li>
+				<li><img src="images/Birth-matters.jpg" width="100" height="150" alt="Birth
+				 Matters"/></li>
+				 <li><img src="images/inamay_guidetochildbirth.jpg" width="100" height=
+				 "150" alt="Ina May's Guide To Childbirth"/></li>
+				 <li><img src="images/spiritual-midwifery.jpg" width="100" height="150"/>
+				 </li>
+			</ul>
+			<article>
+				<h3>Who is Ina May?</h3>
+				<p></p>
+				<h4>Extras:</h4>
+					<a href="http://www.amazon.com/Ina-May-Gaskin/e/B000APVTXM">Buy Ina's Books</a>
+					<a href="http://watch.birthstorymovie.com/">Download Birth Story the Movie</a>
+					<a href="http://www.inamay.com/">Ina May's Website</a>
+					
 	</body>
 	</html>
