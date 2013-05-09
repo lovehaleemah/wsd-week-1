@@ -1,9 +1,23 @@
 <!DOCTYPEhtml>
 <html lang="en">
 	<head>
-		<title></title>
+		<title>Natures Way: Special Event</title>
 		<meta charset="utf-8"/>
 	</head>
 	<body>
+		<div id="header">
+			<h1>NaturesWay.com</h1>
+			<h2>Everything you need to know about natural birth</h2>
+		</div> <!--end of header-->
+		<div id="navigation">
+			<nav>
+				<ul>
+					<li><a>Labor/Delivery</a></li>
+					<li><a>Pregnancy</a></li>
+					<li><a>Nutrition</a></li>
+					<li><a>Directory</a></li>
+				</ul>
+			</div> <!--end of navigation-->
+			
 	</body>
 	</html>
