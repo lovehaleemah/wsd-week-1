@@ -7,8 +7,9 @@
 	<body>
 		<div id="header">
 			<h1>NaturesWay.com</h1>
-			<h2>Everything you need to know about natural birth</h2>
+			<br/>Everything you need to know about natural birth</br/>
 		</div> <!--end of header-->
+		
 		<div id="navigation">
 			<nav>
 				<ul>
@@ -17,7 +18,13 @@
 					<li><a>Nutrition</a></li>
 					<li><a>Directory</a></li>
 				</ul>
-			</div> <!--end of navigation-->
+		</div> <!--end of navigation-->
 			
+		<div id="main body content">
+			<h1>A Day With Ina May</h1>
+			<h2>Sponsored by Natures Way and DONA International</h2>
+			
+		
+		
 	</body>
 	</html>
