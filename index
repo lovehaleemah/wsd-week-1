@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<div id="header">
-			<h1>NaturesWay.com</h1>
-			<br/>Everything you need to know about natural birth</br/>
+			<h1>NaturesWay.com</h1><br/>
+			<p>Everything you need to know about natural birth</p>
 		</div> <!--end of header-->
 		
 		<div id="navigation">
@@ -23,7 +23,39 @@
 		<div id="main body content">
 			<h1>A Day With Ina May</h1>
 			<h2>Sponsored by Natures Way and DONA International</h2>
+			<img src="images/ina-may-gaskin-300x404.jpg" width="300" height="404" 
+			alt="Ina May Gaskin"/>
+			<p>Register Now</p>  <!--this a call to action button-->
 			
+			<div id="about event">
+				<aside>
+					<blockquote>“Remember this, for it is as true and true gets:
+					<strong> Your body is not a lemon!</strong> You are not a machine. 
+					The Creator is not a careless mechanic. Human female bodies have the 
+					same potential to give birth well as aardvarks, lions, rhinoceri, 
+					elephants, moose, and water buffalo. Even if it has <em>not</em> been 
+					your habit throughout your life so far, I recommend that you learn to 
+					think positively about your body.”</blockquote>
+					<cite>Ina May Gaskin, Ina May's Guide to Childbirth</cite>
+				</aside>
+					<section><h3>About the Event</h3>
+						<p>Spend an entire day at the beautiful Sheraton hotel in 
+						Manhattan, N.Y., listening and enjoying the many wisdoms of the 
+						great Ina May Gaskin.  She will be lecturing on the many 
+						techniques and strategies that she has learned throughout her 
+						years being a midwife on the farm.  You will have the opportunity 
+						to ask her questions and maybe even eat lunch with her.
+						At the end of the day everyone will have a chance to screen her 
+						new movie<cite>Birth Story: Ina May Gaskin &amp; 
+						The Farm Midwives</cite>
+					</section>
+			</div>  <!--end of "about event" div-->
+		</div>  <!--end of "main body content" div-->
+		
+		<div id="Biography">
+			<ul>
+				<li><img
+		
 		
 		
 	</body>
