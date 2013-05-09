@@ -65,7 +65,26 @@
 			</ul>
 			<article>
 				<h3>Who is Ina May?</h3>
-				<p></p>
+				<p>Ina May Gaskin is a pioneer in her field, she has often been called 
+				the founder of authentic midwifery. In 1971 her and her husband Stephen 
+				founded a commune and called it the farm.  At the farm the women formed 
+				the first out of hospital birth center.  From there she became famous for
+				her apparent talent for being a midwife and doula.  Women did and still
+				do travel a long way just to give birth on the farm, with the hope of 
+				Ina's attendance.  Her loving and calm presence has been a life saver for
+				hundreds of women who long to opt out of the harsh environment of a 
+				hospital birth.  In the homebirth community, her books are standard reads.
+				  Ina May is also an accomplished author and speaker.  
+				She recently appeared in the famous movie "The Business of Being Born" 
+				by Rikki Lake.   And to much of her follower's pleasure, a biographical 
+				movie has just been released this year.  "Birth Story: Ina May Gaskin 
+				&amp; The Farm Midwives". Which chronicles her life and experiences at the  
+				farm. She continues to be an inspiration to midwives, doulas, and all who
+				are passionate about natural childbirth, bringing awareness and knowledge 
+				to the general community about the benefits of non-medicalized, out-of-
+				hospital birth.
+				</p>
+			</article>
 				<h4>Extras:</h4>
 					
 				<p><a href="http://www.amazon.com/Ina-May-Gaskin/e/B000APVTXM">Buy Ina's
@@ -73,8 +92,22 @@
 				<p><a href="http://watch.birthstorymovie.com/">Download Birth Story the
 				 Movie</a></p>
 				<p><a href="http://www.inamay.com/">Ina May's Website</a></p>
-					
 				
-					
-	</body>
+		</div>  <!--end of "Biography" div-->
+		
+		<div id="Table and Form">
+			<!--This is where the table and form will go-->
+		</div>  <!--End of "Table and Form" div-->
+		
+		<footer>
+			<ul>
+				<li>Twitter</li>
+				<li>Facebook</li>
+				<li>About Us</li>
+				<li>Blog</li>
+				<li>Contact</li>
+			</ul>
+		</footer>
+			
+		</body>
 	</html>
