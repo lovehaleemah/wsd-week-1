@@ -1,0 +1,88 @@
+/*
+css for natures way special event
+*/
+
+
+
+/*------------------header---------------------*/
+
+
+header  h1 {
+	font: italic bold 3em normal adobe garamond pro 
+	baskerville new times roman serif;
+}
+
+header p  {
+	font:   italic 1.27em adobe garamond pro 
+	baskerville new times roman serif;
+}
+
+
+header nav  {
+	font:  bold 1em adobe garamond pro 
+	baskerville new times roman serif;
+} 
+
+
+/*------------------main_body_content---------------*/
+
+div#main_body_content h1  {
+	font:  bold 7em  futura  arial sans-serif;
+}
+
+h2  {
+	font:   1.5em futura  arial sans-serif;
+}
+.button {
+	font:  bold 1.80em  futura arial sans-serif;
+}
+
+
+div#main_body_content div#about_event aside blockquote   {
+	font:  italic 1em optima calibri arial sans-serif;
+	
+} 
+
+div#main_body_content div#about_event aside blockquote strong  {
+	font:  italic bold 1.3em optima calibri arial sans-serif;
+	
+} 
+
+div#main_body_content div#about_event aside cite   {
+	font: italic .75em optima calibri arial sans-serif;
+	
+} 
+
+div#main_body_content div#about_event section h3 { 
+	font: bold 1.45em futura arial sans-serif; 
+}
+
+div#main_body_content div#about_event  p   {
+	font:   1em optima calibri arial sans-serif;
+	
+} 
+
+div#Biography  article h3  {
+	font:  bold 1.3em futura arial sans-serif;
+}
+
+div#Biography  article p  {
+	font:  .85em optima calibri arial sans-serif;
+}
+
+div#Biography h4  {
+	font:  italic bold 1em futura arial sans-serif;
+	text-decoration:  underline; 
+}
+
+div#Biography p  {
+	font:  bold .9em optima calibri arial sans-serif;
+	 
+}
+
+footer ul  {
+	font:  .66em  optima calibri arial sans-serif;
+}
+
+
+
