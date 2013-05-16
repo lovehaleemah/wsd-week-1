@@ -15,14 +15,14 @@ body  {
 header  {
 	background-color:  grey;
 	border-top:  1px solid grey;
-	border-bottom:  none;
-	border-radius: 5px;
+	border-radius:  5px 5px 0px 0px;
 	text-align:  center;
-	margin:  10px 0px 0px 0px;
+	margin:  25px 0px 0px 0px;
 	padding-top:  25px;
 	width:  510px;
 	height: 80px;
 	float: left;
+	clear: both;
 	
 	
 	
@@ -126,7 +126,9 @@ nav ul li a:active {
 
 div#main_body_content  {
 	background:  silver;
-	margin-top: -10px;
+	height:  475px;
+	border: 5px solid silver;
+	
 	clear: both;
 	
 }
@@ -192,31 +194,19 @@ div#main_body_content div#about_event aside cite   {
 	font: italic .75em optima calibri arial sans-serif;
 	margin-left:  515px;
 	
-} 
-
-div#Biography section {
-	height:  119px;
-	width:  790px;
-	/*float: right;*/
-	clear: both;
-	
 }
 
-div#Biography section h3 { 
-	font: bold 1.45em futura arial sans-serif;
+div#Biography  {
+	-moz-column-count: 2;
+}
 	 
-}
 
-div#Biography p   {
-	font:   1em optima calibri arial sans-serif;
-	
-} 
 
 div#Biography  ul#book_images  {
 	/*border: 1px solid gray;*/
 	list-style-type: none;
-	width: 240px;
-	margin:  0px;
+	width: 250px;
+	margin-left:  370px;
 	padding: 0px;
 	/*float: left;*/
 	overflow: hidden;
@@ -225,7 +215,6 @@ div#Biography  ul#book_images  {
 
 div#Biography  ul#book_images li {
 	float: right;
-	clear: left;
 	margin-right: 3px;
 }
 
@@ -252,9 +241,11 @@ div#Biography  ul#book_images li a:active {
 
 div#Biography  article  {
 	clear:  both;
-	float: right;
-	width:  955px;
+	/*float: left;*/
+	width:  950px;
 	height:  336px;
+	
+	 
 }
 
 
@@ -263,45 +254,95 @@ div#Biography  article h3  {
 }
 
 div#Biography  article p  {
-	font:  .85em optima calibri arial sans-serif;
+	font:  1em optima calibri arial sans-serif;
+	line-height:  25px;
+	text-align:  left; 
+	-moz-column-count: 2;
 }
 
-div#Biography h4  {
+ section {
+	height:  250px;
+	width:  995px;
+	margin-top:  200px;
+	clear: both;
+	
+}
+
+ section h3 { 
+	font:  bold 2em futura arial sans-serif;
+	text-align: center;
+	margin:  0 auto;
+}
+
+
+section p   {
+	font:  1.25em optima calibri arial sans-serif;
+	line-height:  20px;
+	text-align:  center; 
+	margin:  15px;
+	/*-moz-column-count: 2;*/
+}
+ h4  {
 	font:  italic bold 1em futura arial sans-serif;
-	text-decoration:  underline; 
+	text-decoration:  underline;
+	width:  1283px;
+	margin: 0  auto;
+	float: left 
+	
 }
 
-div#Biography div#extra_links p  {
+ div#extra_links p  {
 	font:  bold .9em optima calibri arial sans-serif;
 	color: blue;
+	margin-right: 25px;
+	display: block;
+	float:  left;
 	 
 }
 
-div#Biography div#extra_links p a:visited  {
+ div#extra_links p a:visited  {
 	color: grey;
 }
 
-div#Biography div#extra_links p a:hover  {
+ div#extra_links p a:hover  {
 	color: white;
 	background: black;
 	 
 }
 
-div#Biography div#extra_links p a:active  {
+ div#extra_links p a:active  {
 	color: white;
 	background: purple;
 }
 
 
+div#Table_and_Form  {
+
+	width:  1283px;
+	height:  650px;
+	font: italic;
+}
+
+div#Table_and_Form h2  {
+
+	width:  1283px;
+	height:  650px;
+	font: italic;
+	margin: 25px;
+}
+
 footer { 
 	margin:  15px;
 	padding: 5px;
+	clear: both;
+	
 }
 
 footer ul li {
 	font:  italic  .66em  optima calibri arial sans-serif;
 	list-style-type: none;
 	text-decoration: underline;
+	margin-right:  25px;
 	padding: 0;
 	width:  75px;
 	text-align:  center;
