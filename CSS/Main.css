@@ -5,64 +5,97 @@ css for natures way special event
 body  {
 	width: 90%;
 	margin:  0 auto;
-	
-	
+
 }
+
+
 
 /*------------------header---------------------*/
 
 header  {
 	background-color:  grey;
+	border-top:  1px solid grey;
+	border-bottom:  none;
+	border-radius: 5px;
 	text-align:  center;
-	margin-top:  15px;
-	margin-left:  -100px;
-	padding:  5px;
-	width:  50%;
-	float: none;
+	margin:  10px 0px 0px 0px;
+	padding-top:  25px;
+	width:  510px;
+	height: 80px;
+	float: left;
+	
+	
+	
 }
 header  h1 {
-	font: italic bold 3em normal adobe garamond pro 
+	font: italic bold 2em normal adobe garamond pro 
 	baskerville new times roman serif;
 	margin: 0;
+	padding: 0;
 
 	
 }
 
 header p  {
-	font:   italic 1.27em adobe garamond pro 
+	font:   italic .5em adobe garamond pro 
 	baskerville new times roman serif;
-	margin:  0 auto;
+	margin:  0;
+	padding: 0;
 }
 
+
+
+
+/*------------------navigation---------------------*/
+
+
+
+ nav  {
+ 	/*margin-top bottom: 15px;*/
+	background-color:  white;
+	font:  bold 1em adobe garamond pro 
+	baskerville new times roman serif;
+	height:  80px;
+	width:  650px;
+	margin-top:  10px;
+	margin-left:  0px;
+	float: right;
+	
+}
+
+
 nav ul {
-	width: 740px; 
-	height:  94px;
-	padding:  0px;
-	margin:  0 auto;
+	width: 550px; 
+	height:  85px;
+	padding-top:  50px;
+	margin: 0px ;
 }
 
  nav ul li {
 
 	list-style-type:  none;
 	background: white;
-	margin: 10px;
+	margin-right: 10px;
 	padding:   0px;
 	border-top:  1px  solid  gray;
 	/*border-bottom:  1px  solid  gray;*/
-	border-radius: 10px;
-	width:  165px;
+	border-radius: 5px;
+	width:  115px;
 	text-align:  center;
 	float:  left;
-	overflow: hidden;
-	clear: right
+	overflow:  hidden;
+	/*Clear:  right;*/
+
+	/*overflow: hidden;*/
+	
 }
 
 nav ul li a  {
 	text-decoration:  none;
 	background: white;
 	display: block;
-	height:  65px;
-	line-height:  65px;
+	height:  40px;
+	line-height:  40px;
 }	
 
 nav ul li a:visited  { 
@@ -86,50 +119,67 @@ nav ul li a:active {
 	
 	
 	
- nav  {
- 	margin-top: 25px;
-	background-color:  white;
-	font:  bold 1em adobe garamond pro 
-	baskerville new times roman serif;
-}
 
 
 /*------------------main_body_content---------------*/
+
+
 div#main_body_content  {
 	background:  silver;
-	margin: 0;
+	margin-top: -10px;
+	clear: both;
 	
 }
 
 div#main_body_content h1  {
-	font:  bold 9em  futura  arial sans-serif;
-	margin: 0;
-	width: 750px;
-	height:  375px;
+	font:  bold 5em  futura  arial sans-serif;
+	margin: 15px;
+	padding:
+	width: 550px;
+	height:  100px;
 	text-align:  center;
 	float: left;
 }
 h2  {
 	font:   1.5em futura  arial sans-serif;
 	width:  535px;
-	margin: 0;
+	height:  45px;
+	margin: 0  85px;
+	text-align:  center;
+	line-hiehgt:  45px;
 	clear:  left;
+
 		
 }
 
 div#main_body_content img  {
 	height: 404px;
+	margin: 25px 150px 25px 50px;
+	padding: 5px;
+	float: right;
+}
+
+div#main_body_content div#about_event .button  {
+	background:  silver;
+	text-align: center;
+	height:  64px;
 }
 
 
-.button {
+div#main_body_content div#about_event .button a {
 	font:  bold 1.80em  futura arial sans-serif;
-	clear: right;
+	width: 820px;
+	text-align: center;
+	clear:  both;
+	
+	
 }
 
 
 div#main_body_content div#about_event aside blockquote   {
-	font:  italic 1em optima calibri arial sans-serif;
+	font:   1.25em optima calibri arial sans-serif;
+	text-align:  center;
+	line-height: 30px
 	
 } 
 
@@ -140,14 +190,24 @@ div#main_body_content div#about_event aside blockquote strong  {
 
 div#main_body_content div#about_event aside cite   {
 	font: italic .75em optima calibri arial sans-serif;
+	margin-left:  515px;
 	
 } 
 
-div#main_body_content div#about_event section h3 { 
-	font: bold 1.45em futura arial sans-serif; 
+div#Biography section {
+	height:  119px;
+	width:  790px;
+	/*float: right;*/
+	clear: both;
+	
 }
 
-div#main_body_content div#about_event  p   {
+div#Biography section h3 { 
+	font: bold 1.45em futura arial sans-serif;
+	 
+}
+
+div#Biography p   {
 	font:   1em optima calibri arial sans-serif;
 	
 } 
@@ -158,11 +218,14 @@ div#Biography  ul#book_images  {
 	width: 240px;
 	margin:  0px;
 	padding: 0px;
+	/*float: left;*/
 	overflow: hidden;
+
 }
 
 div#Biography  ul#book_images li {
-	float: left;
+	float: right;
+	clear: left;
 	margin-right: 3px;
 }
 
@@ -185,6 +248,13 @@ div#Biography  ul#book_images li a:hover {
 
 div#Biography  ul#book_images li a:active {
 	border-color: black;
+}
+
+div#Biography  article  {
+	clear:  both;
+	float: right;
+	width:  955px;
+	height:  336px;
 }
 
 
