@@ -27,7 +27,7 @@ header  h1 {
 header p  {
 	font:   italic 1.27em adobe garamond pro 
 	baskerville new times roman serif;
-	margin:  0;
+	margin:  0 auto;
 }
 
  nav ul li {
@@ -121,6 +121,42 @@ div#main_body_content div#about_event  p   {
 	
 } 
 
+div#Biography  ul#book_images  {
+	/*border: 1px solid gray;*/
+	list-style-type: none;
+	width: 240px;
+	margin:  0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+div#Biography  ul#book_images li {
+	float: left;
+	margin-right: 3px;
+}
+
+div#Biography  ul#book_images li a{
+	border: 2px  solid  grey;
+	border-radius: 3px;
+	width: 100px;
+	height: 150px;
+	margin: 3px;
+	display: block;
+}
+
+div#Biography  ul#book_images li a:visited  {
+	border-color: blue;
+}
+
+div#Biography  ul#book_images li a:hover {
+	border-color: white;
+}
+
+div#Biography  ul#book_images li a:active {
+	border-color: black;
+}
+
+
 div#Biography  article h3  {
 	font:  bold 1.3em futura arial sans-serif;
 }
@@ -134,10 +170,27 @@ div#Biography h4  {
 	text-decoration:  underline; 
 }
 
-div#Biography p  {
+div#Biography div#extra_links p  {
 	font:  bold .9em optima calibri arial sans-serif;
+	color: blue;
 	 
 }
+
+div#Biography div#extra_links p a:visited  {
+	color: grey;
+}
+
+div#Biography div#extra_links p a:hover  {
+	color: white;
+	background: black;
+	 
+}
+
+div#Biography div#extra_links p a:active  {
+	color: white;
+	background: purple;
+}
+
 
 footer { 
 	margin:  15px;
