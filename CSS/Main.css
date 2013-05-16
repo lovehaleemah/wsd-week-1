@@ -368,7 +368,7 @@ div#Biography  ul#book_images li a:active {
 section {
 	height:  650px;
 	width:  500px;
-	margin-top:  75px;
+	margin-top:  50px;
 	clear: both;
 	float: left;
 	background: #150a0e;
@@ -401,7 +401,7 @@ div#Table_and_Form  {
 
 	width:  782.5px;
 	height:  650px;
-	margin-top:  75px;
+	margin-top:  50px;
 	font: italic;
 	background:  #150a0e;
 	border:  1px #150a0e;
