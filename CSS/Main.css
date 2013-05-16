@@ -118,7 +118,8 @@ nav ul li a:active {
 }
 	
 	
-	
+
+
 
 
 /*------------------main_body_content---------------*/
@@ -127,7 +128,8 @@ nav ul li a:active {
 div#main_body_content  {
 	background:  silver;
 	height:  475px;
-	border: 5px solid silver;
+	border:  1px solid grey;
+	border-radius:  0px 5px 5px 5px;
 	
 	clear: both;
 	
@@ -198,6 +200,8 @@ div#main_body_content div#about_event aside cite   {
 
 div#Biography  {
 	-moz-column-count: 2;
+	padding: 5px;
+	margin-top: 5px;
 }
 	 
 
@@ -260,28 +264,7 @@ div#Biography  article p  {
 	-moz-column-count: 2;
 }
 
- section {
-	height:  250px;
-	width:  995px;
-	margin-top:  200px;
-	clear: both;
-	
-}
-
- section h3 { 
-	font:  bold 2em futura arial sans-serif;
-	text-align: center;
-	margin:  0 auto;
-}
-
-
-section p   {
-	font:  1.25em optima calibri arial sans-serif;
-	line-height:  20px;
-	text-align:  center; 
-	margin:  15px;
-	/*-moz-column-count: 2;*/
-}
+ 
  h4  {
 	font:  italic bold 1em futura arial sans-serif;
 	text-decoration:  underline;
@@ -316,25 +299,69 @@ section p   {
 }
 
 
+section {
+	height:  650px;
+	width:  500px;
+	margin-top:  200px;
+	clear: both;
+	float: left;
+	background:  silver;
+	border:  1px silver;
+	border-radius:  5px 0px 0px 5px;
+	
+}
+
+ section h3 { 
+	font:  bold 2em futura arial sans-serif;
+	text-align: center;
+	margin:  0 auto;
+}
+
+
+section p   {
+	font:  1.25em optima calibri arial sans-serif;
+	line-height:  25px;
+	text-align:  center; 
+	margin:  15px;
+	/*-moz-column-count: 2;*/
+}
+
+
 div#Table_and_Form  {
 
-	width:  1283px;
+	width:  782.5px;
 	height:  650px;
+	margin-top:  200px;
 	font: italic;
+	background:  silver;
+	border:  1px silver;
+	border-radius:  0px 5px 5px 0px;
+	float:  right;
+	
 }
 
 div#Table_and_Form h2  {
 
-	width:  1283px;
+	width:  783px;
 	height:  650px;
 	font: italic;
 	margin: 25px;
 }
 
 footer { 
-	margin:  15px;
+	width: 570px;
+	height: 30px;
+	margin:  0 auto;
 	padding: 5px;
-	clear: both;
+	background:  silver;
+	border-bottom:  1px solid grey;
+	border-radius:  0px 0px 5px 5px;
+	clear:  both;
+	
+}
+
+footer ul {
+	margin: 0;
 	
 }
 
@@ -351,11 +378,6 @@ footer ul li {
 }
 
 
-nav ul li a:visited {
-	
-	background: white;
-	color:  silver;
-}
 	
 	
 footer ul li a:hover  {
