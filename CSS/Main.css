@@ -5,6 +5,7 @@ css for natures way special event
 body  {
 	width:  /*1282.5px;*/ 90%;
 	margin:  0 auto;
+	font: 100%/ 1.25;
 
 }
 
@@ -140,23 +141,23 @@ div#main_body_content  {
 }
 
 div#main_body_content h1  {
-	font:  bold 5em  futura  arial sans-serif;
+	font:  bold 4em  futura  arial sans-serif;
 	color: #ececd2;
-	margin: /*15px;*/ 1.197126895451%;
+	margin:0 auto;/*15px;*/ /*1.197126895451% auto;*/
 	width: /*750px;*/  58.479532163743%;
-	height:  100px;
-	line-height: 1.15em;
-	text-align: left;
+	height:  113px;
+	/*line-height: 1.25em;*/
+	text-align: center;
 	float: left;
 }
 h2  {
 	font:   1.5em futura  arial sans-serif;
 	color: #ececd2;
-	width:  /*535px;*/  41.715399610136%;
+	width:  735px;  /*41.715399610136%;*/
 	height:  45px;
-	margin: /*0 75px;*/  0  5.985634477255%;
-	line-height:  /*40px;*/ 1em
-	text-align:  right;
+	margin:0 ; /*0 75px;*/ /* 0  5.985634477255%;*/
+	/*line-height:  /*40px;*//* 1em*/
+	text-align:  center;
 	clear:  left;
 
 		
@@ -182,7 +183,7 @@ div#main_body_content div#about_event aside blockquote   {
 	color: #ececd2;
 	width: /*725px;*/ 56.530214424951%;
 	text-align:  center;
-	line-height: /*30px*/ 1.5em;
+	/*line-height: /*30px*/ /*1.5em;*/
 	
 } 
 
@@ -263,46 +264,46 @@ div#main_body_content div#about_event .button a {
 
 
 
+
 /*------------------Biography---------------------------*/
 
 div#Biography  {
-	width: 90%
-	/*-moz-column-count: 2;*/
-	padding:/* 5px;*/  .389863547758%;
-	margin-top: /*5px;*/  .389863547758%;
+	-moz-column-count: 2;
+	padding: 10px;
+	margin: 5px auto;
+	width:1235px;
+	
 }
 
 
-div#Biography  article h3  {
-	font:  bold 1.3em futura arial sans-serif;
-	}
-	
-	
 
 div#Biography  article  {
-	
-	width:  60%; 
+	clear:  both;
+	width:  930px;  
 	height:  336px;
-
+	overflow: hidden;
+	margin-left: 10px auto;
 	
 	 
 }
 
 
+div#Biography  article h3  {
+	font:  bold 1.3em futura arial sans-serif;
+}
 
 div#Biography  article p  {
 	font:  1em optima calibri arial sans-serif;
-	line-height:  /*25px;*/  1.5em;
+	line-height:  25px;
 	text-align:  left; 
 	-moz-column-count: 2;
-	clear: both;
 }
 
  
  h4  {
 	font:  italic bold 1em futura arial sans-serif;
 	text-decoration:  underline;
-	width:  /*1283px;*/  100%;
+	width:  1283px;
 	margin: 0  auto;
 	float: left 
 	
@@ -311,7 +312,7 @@ div#Biography  article p  {
  div#extra_links p  {
 	font:  bold .9em optima calibri arial sans-serif;
 	color:  #f895c2;
-	margin-right: /*25px;*/ 1.949317738791%;
+	margin-right: 25px;
 	display: block;
 	float:  left;
 	 
@@ -339,28 +340,26 @@ div#Biography  article p  {
 
 
 div#Biography  ul#book_images  {
-	list-style-type: none;
-	width: /*250px; */ 19.493177387914%;
-	margin-left:  /*370px;*/   /*8.849902534113%;*/
-	/*margin-right: 5px;*/
 	
+	list-style-type: none;
+	width: 250px;
+	margin-left:  340px;
+	padding: 0px;
 	overflow: hidden;
-	margin: 0;
 
 }
 
 div#Biography  ul#book_images li {
-	
-	margin-right: 3px;  /*.233918128655%;*/
 	float: right;
+	margin-right: 3px;
 }
 
 div#Biography  ul#book_images li a{
 	border: 2px  solid #150a0e ;
 	border-radius: 3px;
-	width: /*100px;*/  /*7.797270955166%;*/
+	width: 100px;
 	height: 150px;
-	margin: 3px;  /*.233918128655%;*/
+	margin: 3px;
 	display: block;
 }
 
@@ -380,8 +379,8 @@ div#Biography  ul#book_images li a:active {
 
 section {
 	height:  650px;
-	width:  /*500px; */ 38.986354775828%;
-	margin-top:  /*50px; */ 10%;
+	width:  500px;
+	margin-top:  50px;
 	clear: both;
 	float: left;
 	background: #150a0e;
@@ -401,9 +400,9 @@ section {
 section p   {
 	font:  1.25em optima calibri arial sans-serif;
 	color:  #ececd2;
-	line-height:  1.5em;
+	line-height:  25px;
 	text-align:  left; 
-	margin:  /*15px;*/  3%;
+	margin:  15px;
 	/*-moz-column-count: 2;*/
 }
 
@@ -412,7 +411,7 @@ section p   {
 
 div#Table_and_Form  {
 
-	width:  780px;  /*61.013645224172%;*/
+	width:  782.5px;
 	height:  650px;
 	margin-top:  50px;
 	font: italic;
